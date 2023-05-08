@@ -7,39 +7,56 @@ body{
     background: linear-gradient(to right,white 60%, rgb(214, 189, 166) 40%);
 
 }
+header{
+    height: 9vh;
+    
+    justify-content: top;
+}
 
 a{
     color: black;
-    padding-top: 5vh;
     padding-left: 6%;
 }
 
-
 img{
-
-    width: 154vh;
-    height: 95vh;
-    padding-top: 5vh;
-
-    padding-left: 65vh;
     
+    width: 156vh;
+    height: 95vh;
+    padding-left: 65vh;
+    padding-bottom: 0;
+    margin-bottom: 0;
+
 }
+
+
 .headeruno{
-    display:list-item;
+    position: relative;
+    justify-content:flex-start;
     padding-left: 25vh;
-    padding-top: 3vh;
+    margin-top: -4vh;
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
+    
 }
-.divlupabolsa{
-    padding-left: 159vh;
+.lupa{
+    position: absolute;
+    padding-top: 6.5vh;
+    padding-left: 165vh;
+    
 }
-
+.bolsa{ 
+    position: absolute;
+    padding-top: 6.5vh;
+    padding-left: 170vh;
+    
+}
 .divdebotones{
-
+    
     display: flex;
-    justify-content:right;
+    justify-content: right;
     padding-right: 10vh;
+    padding-top: 5.5vh;
+    
 
 }
 .botonuno{
@@ -93,7 +110,7 @@ img{
                  transform: 0.2s;
 }
 
-
+a:link{text-decoration: none;}
 
 
 
