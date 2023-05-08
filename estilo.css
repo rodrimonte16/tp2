@@ -2,9 +2,7 @@
     margin: 0;
     padding: 0;
 }
-head{
-    padding: 2vh;
-}
+
 body{
     background: linear-gradient(to right,white 60%, rgb(214, 189, 166) 40%);
 
@@ -16,6 +14,7 @@ a{
     padding-left: 6%;
 }
 
+
 img{
 
     width: 154vh;
@@ -24,6 +23,16 @@ img{
 
     padding-left: 65vh;
     
+}
+.headeruno{
+    display:list-item;
+    padding-left: 25vh;
+    padding-top: 3vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+.divlupabolsa{
+    padding-left: 159vh;
 }
 
 .divdebotones{
