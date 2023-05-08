@@ -31,6 +31,14 @@ h2{
     font-size: 2vh;
     color: grey;
 }
+h3{
+    position: relative;
+    margin-top: 0.5vh;
+    padding-left: 12vh;
+    font-size: 5vh;
+    color: black;
+    letter-spacing: -0.6vh;
+}
     
 img{
     position: relative;
@@ -44,6 +52,10 @@ img{
 
 }
 
+.logomarca{
+    position: absolute;
+    padding-top: 3.3vh;
+}
 
 .headeruno{
     position: relative;
