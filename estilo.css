@@ -24,10 +24,17 @@ h1{
     padding-left: 12vh;
     font-size: 8vh;
 }
+h2{
+    position: relative;
+    margin-top: 0.5vh;
+    padding-left: 12vh;
+    font-size: 2vh;
+    color: grey;
+}
     
 img{
     position: relative;
-    margin-top: -44vh;
+    margin-top: -57vh;
     width: 150vh;
     height: 90vh;
     padding-left: 65vh;
@@ -124,6 +131,45 @@ img{
 }
 .titulodos{
     margin-top: 1vh;
+}
+.divbotondos{
+    display: flex;
+    justify-content: left;
+    padding-right: 10vh;
+    padding-top: 5.5vh;
+}
+.botonmain{
+    position: relative;
+    margin-top: 1vh;
+    left: 12vh;
+}
+.botonmain{
+    transform: scale(1);
+    font-size: 13px;
+    background-color: white;
+    border: 0.1vh solid black;
+    height: 30px;
+    padding: 13px 30px 26px 30px;
+    color: black;
+}
+.botonmain:hover{  
+    transform: scale(1);
+    background-color: rgb(214, 189, 166) ;
+    border: 0;
+    border-left: 0.1vh solid gray;
+    height: 30px;
+    padding: 2px 30px 2px 30px;
+    color: black;
+}  
+.botonmain{
+    transition: background 0.3s;
+                 transform: 0.2s;
+}
+
+.texto{
+    position: absolute;
+    padding-top: 17vh;
+
 }
 
 a:link{text-decoration: none;}
