@@ -68,16 +68,16 @@ img{
 }
 .lupa{
     position: absolute;
-    padding-top: 6.5vh;
-    padding-left: 165vh;
+    padding-top: 4.8vh;
+    padding-left: 158vh;
     
 }
 .bolsa{ 
     position: absolute;
-    padding-top: 6.5vh;
-    padding-left: 170vh;
-    
+    padding-top: 4.5vh;
+    padding-left: 164vh;
 }
+
 .divdebotones{
     
     display: flex;
@@ -183,6 +183,69 @@ img{
     padding-top: 17vh;
 
 }
+.notificationuno{
+    font-size: 3vh;
+}
+.notification {
+    transform: scale(1);
+    color: black;
+    font-size: 3vh;
+    text-decoration: none;
+    padding: 10px 26px;
+    position: relative;
+    display: inline-block;
+    border-radius: 2px;
+  }
+  
+  .notification:hover {
+    transform: scale(0.8);
+    background: red;
+    border: 0;
+    border-radius: 100%;
+    height: 3vh;
+    padding: -20px -26px;
+    color: black;
+  }
+  
+  .notification .badge {
+    position: absolute;
+    font-size: 1.5vh;
+    top: 6px;
+    right: 16px;
+    padding: 2px 6px;
+    border: 0.2vh solid black;
+    border-radius: 50%;
+    background: white  ;
+    color: black;
+  }
+  .badge{
+    font-size: 1vh;
+  }
+  .linea{
+    border-right: 4px solid black;
+    height: 38px;
+    position: absolute;
+    left: 1290px;
+    top: 300px;
+    font-size: 0.6rem;
+  }
+  .lineados{
+    border-right: 4px solid rgb(48, 45, 45);
+    height: 38px;
+    position: absolute;
+    left: 1290px;
+    top: 338px;
+    font-size: 0.6rem;
+  }
+  .lineatres{
+    border-right: 4px solid gray;
+    height: 38px;
+    position: absolute;
+    left: 1290px;
+    top: 375px;
+    font-size: 0.6rem;
+  }
+  
 
 a:link{text-decoration: none;}
 
